@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 112px;
+  background-color: #39373E;
+}
+
+.header-container{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.w-container{
+  width: min(92%,1166px);
+  margin: auto;
+}
+
+.header-title{
+  color: #F0A98D;
+}
+
+.navbtn{
+  padding: 0;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 30px;
+  color: #F0A98D;
+}
